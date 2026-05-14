@@ -97,7 +97,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="flex flex-col sm:flex-row justify-between gap-2">
           <span className="font-sans text-sm font-medium text-[#EDE8E4]">Stratify Labs 2026</span>
-          <span className="font-sans text-sm font-medium text-[#EDE8E4]">Stratify Labs GbR</span>
+          <span className="font-sans text-sm font-medium text-[#EDE8E4]">Stratify Labs Ph</span>
         </div>
       </div>
     </footer>

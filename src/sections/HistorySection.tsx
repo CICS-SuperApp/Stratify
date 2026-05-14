@@ -5,11 +5,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 gsap.registerPlugin(ScrollTrigger);
 
 const yearItems = [
-  { year: '2018', text: 'Stratify Labs is founded' },
-  { year: '2020', text: 'First international clients' },
-  { year: '2022', text: '50+ projects successfully delivered' },
-  { year: '2024', text: 'New office in Berlin' },
-  { year: '2026', text: '100 employees worldwide' },
+  { year: '2024', text: 'Stratify Labs is founded' },
+  { year: '2025', text: '50+ clients worldwide' },
+  { year: '2026', text: 'Our new chapter' },
 ];
 
 export default function HistorySection() {
@@ -89,7 +87,7 @@ export default function HistorySection() {
           Our History
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-5">
           {yearItems.map((item) => (
             <div key={item.year} className="year-item">
               <span className="section-label text-[#BCC1B7] block mb-2">

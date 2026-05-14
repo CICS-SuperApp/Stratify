@@ -11,6 +11,8 @@ import PortfolioSection from '@/sections/PortfolioSection';
 import ContactSection from '@/sections/ContactSection';
 import KontaktPage from '@/pages/KontaktPage';
 
+import ClientReviewsSection from '@/sections/ClientReviewsSection';
+
 function HomePage() {
   return (
     <>
@@ -19,6 +21,7 @@ function HomePage() {
       <InnovationSection />
       <ServicesSection />
       <PortfolioSection />
+      <ClientReviewsSection />
       <ContactSection />
     </>
   );
